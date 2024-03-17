@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+button{
+    background-color: darkblue; /* Color de fondo */
+    border: none; /* Sin borde */
+    color: white; /* Color de texto */
+    padding: 15px 32px; /* Espaciado interno (arriba y abajo) 15px, izquierda y derecha 32px */
+    text-align: center; /* Centrar texto */
+    text-decoration: none; /* Sin decoración de texto */
+    display: inline-block; /* Mostrar como bloque */
+    font-size: 16px; /* Tamaño de fuente */
+    margin: 4px 2px; /* Margen exterior */
+    cursor: pointer; /* Cursor al pasar sobre el botón */
+    border-radius: 12px; /* Bordes redondeados */
+    transition-duration: 0.4s; /* Duración de la transición */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Sombra */
+}
+
+.randomAvatarButton:hover {
+    background-color: #45a049; /* Color de fondo al pasar el mouse */
+}
+/* Al hacer clic en el botón */
+.randomAvatarButton:active {
+    background-color: #3e8e41; /* Color de fondo al hacer clic */
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2); /* Sombra al hacer clic */
+    transform: translateY(2px); /* Desplazar ligeramente hacia abajo */
+}
+
+img{
+    width: 400px;
+    height: 400px;
+}
